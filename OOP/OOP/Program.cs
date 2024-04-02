@@ -1,7 +1,6 @@
 ﻿// OOP (object oriented programming)
 using OOP;
 
-
 // Create a car 
 Car tesla = new("Tesla", "Y", 2020, "Black");
 
@@ -20,11 +19,8 @@ List<User> users = new List<User>();
 users.Add(james);
 users.Add(michael);
 users.Add(john);
-
+//An example of Polymorphisms also known as "runtime polymorphism" 
 foreach (User user in users)
 {
     user.talk();
 }
-
-
-

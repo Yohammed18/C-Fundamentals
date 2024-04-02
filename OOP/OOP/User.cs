@@ -8,9 +8,9 @@ namespace OOP
 {
     public interface User
     {
-        public void talk();
+        void talk();
 
-        public void walk();
+        void walk();
 
     }
 }
