@@ -1,0 +1,25 @@
+# This will help ignore all vs folders
+IntroCSharp/.vs
+ListTutorial/.vs
+Miscellaneous/.vs
+OOP/.vs
+Pinger/.vs
+IntroCSharp/IntroCSharp/bin/
+IntroCSharp/IntroCSharp/obj/
+ListTutorial/ListTutorial/bin/
+ListTutorial/ListTutorial/obj/
+Pinger/Pinger/bin/
+Pinger/Pinger/obj/
+OOP/OOP/bin/
+OOP/OOP/obj/
+Miscellaneous/Miscellaneous/bin/
+Miscellaneous/Miscellaneous/obj/
+
+
+
+
+
+
+
+
+
