@@ -14,12 +14,18 @@ OOP/OOP/bin/
 OOP/OOP/obj/
 Miscellaneous/Miscellaneous/bin/
 Miscellaneous/Miscellaneous/obj/
-
-
-
-
-
-
+Dotnet-Tutorial/bin
+Dotnet-Tutorial/obj
+OOP/HelloWorld/bin
+OOP/HelloWorld/obj
+OOP/Temp/bin
+OOP/Temp/obj
+OOP/OOP.sln
+Pinger/Pinger.sln
+Miscellaneous/Miscellaneous.sln
+ListTutorial/ListTutorial.sln
+IntroCSharp/IntroCSharp.sln
+Dotnet-Tutorial/Dotnet-Tutorial.sln
 
 
 
