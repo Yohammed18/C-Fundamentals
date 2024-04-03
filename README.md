@@ -12,3 +12,7 @@ Some common tasks you can perform with the dotnet command include:
 -   Testing projects: dotnet test runs unit tests in your project.
 -   Managing dependencies: dotnet restore restores the dependencies specified in your project file.
 -   Publishing projects: dotnet publish prepares your project for deployment by packaging it and its dependencies for a specific target runtime. 
+
+For more information on C# and .NET 6 visit the Microsoft home page https://dotnet.microsoft.com/en-us/
+
+***For C#*** - https://learn.microsoft.com/en-us/dotnet/csharp/
