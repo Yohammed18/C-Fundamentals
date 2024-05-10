@@ -1,0 +1,15 @@
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\bin\Debug\net8.0\Hello.exe
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\bin\Debug\net8.0\Hello.deps.json
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\bin\Debug\net8.0\Hello.runtimeconfig.json
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\bin\Debug\net8.0\Hello.dll
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\bin\Debug\net8.0\Hello.pdb
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\Hello.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\Hello.AssemblyInfoInputs.cache
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\Hello.AssemblyInfo.cs
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\Hello.csproj.CoreCompileInputs.cache
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\Hello.sourcelink.json
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\Hello.dll
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\refint\Hello.dll
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\Hello.pdb
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\Hello.genruntimeconfig.cache
+C:\Users\malli\Dev\C-Fundamentals\C#-Recap\Hello\obj\Debug\net8.0\ref\Hello.dll

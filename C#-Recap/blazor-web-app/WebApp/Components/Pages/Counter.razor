@@ -1,0 +1,29 @@
+﻿@page "/counter/"
+@page "/counter2"
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @Countercount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Add</button>
+<button class="btn btn-info" @onclick="DecrementCount">Minus</button>
+
+
+
+@if (Countercount == -9 ){
+    <div>
+        <p>
+           You can't go below -9!! 
+        </p>
+    </div>
+}
+else if(Countercount == 9){
+    <div>
+        <p>
+           You can't go above the number 9. 
+        </p>
+    </div>
+}

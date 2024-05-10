@@ -1,0 +1,15 @@
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\bin\Debug\net8.0\OOP-Expert.exe
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\bin\Debug\net8.0\OOP-Expert.deps.json
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\bin\Debug\net8.0\OOP-Expert.runtimeconfig.json
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\bin\Debug\net8.0\OOP-Expert.dll
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\bin\Debug\net8.0\OOP-Expert.pdb
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\OOP-Expert.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\OOP-Expert.AssemblyInfoInputs.cache
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\OOP-Expert.AssemblyInfo.cs
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\OOP-Expert.csproj.CoreCompileInputs.cache
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\OOP-Expert.sourcelink.json
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\OOP-Expert.dll
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\refint\OOP-Expert.dll
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\OOP-Expert.pdb
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\OOP-Expert.genruntimeconfig.cache
+C:\Users\malli\Dev\C-Fundamentals\OOP-Expert\obj\Debug\net8.0\ref\OOP-Expert.dll
