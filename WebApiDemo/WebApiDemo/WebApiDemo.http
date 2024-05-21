@@ -2,5 +2,12 @@
 
 GET {{WebApiDemo_HostAddress}}/shirts/
 
+###
+GET {{WebApiDemo_HostAddress}}/shirt/1
+
 
 ###
+DELETE {{WebApiDemo_HostAddress}}/delete/1
+
+###
+PUT {{WebApiDemo_HostAddress}}/update/21
