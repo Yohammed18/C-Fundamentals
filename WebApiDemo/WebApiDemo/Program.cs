@@ -3,8 +3,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-//app.UseHttpsRedirection(); //redirects to https 
+// Middleware  component app.Use...
+app.UseRouting();
 
 // Routing
 
@@ -17,7 +17,9 @@ app.MapGet("/shirts", () =>
 
 app.MapGet("/shirt/{id}", (int id) =>
 {
+    //check type model validation
     return $"Reading shirt with ID: {id}";
+
 });
 
 app.MapPost("/shirts", () =>
