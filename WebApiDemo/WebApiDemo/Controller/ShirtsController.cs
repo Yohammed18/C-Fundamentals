@@ -6,11 +6,13 @@ namespace WebApiDemo.Controller
     [ApiController]
     public class ShirtsController: ControllerBase
     {
+
+
         [HttpGet]
         [Route("/shirts")]
         public string GetShirts()
         {
-            return "Reading all the shirts";
+            return "Get all the shirts";
         }
 
         [HttpGet]
@@ -35,9 +37,10 @@ namespace WebApiDemo.Controller
         }
         [HttpPost]
         [Route("/shirt")]
-        public Shirt CreateShirt([FromBody]Shirt shirt)
+        public string CreateShirt([FromBody]Shirt shirt)
         {
-            return shirt;
+            
+            return "Shirt has been created.";
         }
     }
 }
