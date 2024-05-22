@@ -1,4 +1,5 @@
 @WebApiDemo_HostAddress = http://localhost:5255
+@color = blue
 
 GET {{WebApiDemo_HostAddress}}/shirts/
 
@@ -11,3 +12,23 @@ DELETE {{WebApiDemo_HostAddress}}/delete/1
 
 ###
 PUT {{WebApiDemo_HostAddress}}/update/21
+
+### Get color of the shirt
+GET {{WebApiDemo_HostAddress}}/shirt/1/
+Color: {{color}}
+Content-Type: application/json
+
+
+###
+POST {{WebApiDemo_HostAddress}}/shirt/
+Content-Type: application/json
+
+{
+    "shirtid": 2,
+    "brand": "BrandX",
+    "color": "Red",
+    "size": 40,
+    "gender": "Male",
+    "price": 49.99
+}
+

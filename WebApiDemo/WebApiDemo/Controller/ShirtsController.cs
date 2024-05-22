@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApiDemo.Model;
 
 namespace WebApiDemo.Controller
 {
@@ -13,10 +14,10 @@ namespace WebApiDemo.Controller
         }
 
         [HttpGet]
-        [Route("/shirt/{id}")]
-        public string GetShirtById(int id)
+        [Route("/shirt/{id}/")]
+        public string GetShirtById(int id, [FromHeader(Name = "Color")] string color)
         {
-            return $"Reading shirt with ID: {id}";
+            return $"Reading shirt with ID: {id}\nColor: {color}";
         }
 
         [HttpPut]
@@ -34,9 +35,9 @@ namespace WebApiDemo.Controller
         }
         [HttpPost]
         [Route("/shirt")]
-        public string CreateShirt()
+        public Shirt CreateShirt([FromBody]Shirt shirt)
         {
-            return "Creating a shirt.";
+            return shirt;
         }
     }
 }
