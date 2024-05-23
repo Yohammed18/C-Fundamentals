@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApiDemo.Filters;
 using WebApiDemo.Model;
 using WebApiDemo.Model.Repositories;
 
@@ -18,28 +19,11 @@ namespace WebApiDemo.Controller
         }
 
         [HttpGet]
+        [Shirt_ValidateShirtIdFilter]
         [Route("/shirt/{id}/")]
         public IActionResult GetShirtById(int id)
         {
-            if(id <= 0)
-            {
-                return BadRequest(id.ToString());
-            }
-
-            try
-            {
-                var shirt = ShirtRepository.GetShirtById(id);
-                if (shirt == null)
-                {
-                    return NotFound();
-                }
-                
-                return Ok(shirt);
-            } catch (InvalidOperationException ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, $"An error occurred while processing your request.\n");
-            }
-             
+            return Ok(ShirtRepository.GetShirtById(id));
         }
 
         [HttpPut]
