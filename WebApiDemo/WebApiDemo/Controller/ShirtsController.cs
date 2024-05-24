@@ -44,8 +44,16 @@ namespace WebApiDemo.Controller
         [Route("/shirt")]
         public IActionResult CreateShirt([FromBody]Shirt shirt)
         {
-            ShirtRepository.AddShirt(shirt);
-            return Ok("Shirt has been created.");
+            if (shirt == null) return BadRequest();
+
+            var existingshirt = ShirtRepository.GetShirtByProperties(shirt.Brand, shirt.Gender, shirt.Color, shirt.Size);
+
+            if (existingshirt != null) return BadRequest(existingshirt);
+
+            ShirtRepository.CreateShirt(shirt);
+            return CreatedAtAction(nameof(GetShirtById), new { id = shirt.ShirtId}, shirt);
         }
     }
 }
+
+
